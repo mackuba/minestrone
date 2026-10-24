@@ -36,9 +36,9 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.add_dependency 'benchmark', '~> 0.5'
-  spec.add_dependency 'highline', '>= 0'
+  spec.add_dependency 'highline', '~> 3.0'
   spec.add_dependency 'net-ssh', '~> 8.0'
-  spec.add_dependency 'net-sftp', '>= 3.0'
-  spec.add_dependency 'net-scp', '>= 3.0'
+  spec.add_dependency 'net-sftp', '~> 4.0'
+  spec.add_dependency 'net-scp', '~> 4.0'
   spec.add_dependency 'bcrypt_pbkdf', '~> 1.1'
 end
