@@ -37,10 +37,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'benchmark', '~> 0.5'
   spec.add_dependency 'highline', '>= 0'
-  spec.add_dependency 'net-ssh', '>= 7.2'
+  spec.add_dependency 'net-ssh', '~> 8.0'
   spec.add_dependency 'net-sftp', '>= 3.0'
   spec.add_dependency 'net-scp', '>= 3.0'
-
-  # used silently by net-ssh but undeclared
-  spec.add_dependency 'logger'
+  spec.add_dependency 'bcrypt_pbkdf', '~> 1.1'
 end
