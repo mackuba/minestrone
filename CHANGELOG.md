@@ -1,4 +1,4 @@
-## Unreleased
+## [0.0.3] - 2026-10-24
 
 - updated `capify` script to generate an updated and simplified deploy config
 - bumped up `net-ssh`, `net-scp` and `net-sftp` required versions
