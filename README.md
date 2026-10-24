@@ -36,7 +36,8 @@ Minestrone is a tool for deploying Ruby applications to a server, based on the c
 * added `upload_file` as alias for `upload`
 * added `append` and `remove` for adding/removing items from array variables
 * renamed `_cset` to `set_if_empty`
-* Ruby 3.0+ is required
+* Ruby 3.3+ is required
+* `ed25519` and `bcrypt_pbkdf` don't need to be separately included in the Gemfile
 
 
 ### Project status
