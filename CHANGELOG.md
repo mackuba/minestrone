@@ -1,3 +1,10 @@
+## Unreleased
+
+- updated `capify` script to generate an updated and simplified deploy config
+- bumped up `net-ssh`, `net-scp` and `net-sftp` required versions
+- bumped up required Ruby version to 3.3+
+- `ed25519` and `bcrypt_pbkdf` don't need to be separately included in the Gemfile
+
 ## [0.0.2] - 2026-07-26
 
 - added `upload_file` as an alias for `upload` (which in deploy tasks is shadowed by the `deploy:upload` task)
@@ -10,8 +17,7 @@
 - removed `deploy:cold`, `deploy:start` and `deploy:stop` tasks
 - removed `:normalize_asset_timestamps` and `:public_children`
 
-
-## Minestrone 0.0.1 - 2026-05-25
+## Minestrone [0.0.1] - 2026-05-25
 
 Changes from Capistrano 2.15.11:
 
